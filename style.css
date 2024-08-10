@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh ;
+    width: 100vw ;
+    background-color: rgb(97, 95, 95);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    background-color: rgb(128, 196, 82);
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+button{
+    background-color: rgb(26, 21, 21);
+    width: fit-content;
+    color: white;
+    padding:4px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+}
+button:hover{
+    background-color: blue;
+    border: 2px dashed black;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+nav .logo{
+    font-size:larger;
+    font-weight: 1500;
+    display: flex;
+    
+}
+nav ul{
+    margin: 35px;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    gap: 40px;
+}
+nav ul li:hover{
+    text-decoration:underline;
+    padding: 5px;
+     border: 2px solid rgb(15, 171, 218); 
+    color: blue;
+    font-weight: 900;
+}
+.search-feild{
+    display: flex;
+    gap: 35px;
+    padding: 4px 10px;
+}
+input{
+    padding: 4px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.section{
+    display: flex;
+    align-items: center;
+
+}
+.left-section h1{
+    margin-bottom: 20px;
+font-size: 40px;
+font-weight: 700;
+color: aqua;
+}
+.left-section h1 span{
+    color: rgb(52, 218, 52);
+    font-weight: 900;
+    font-size: 500;
+}
+.left-section p{
+    width: 600px;
+    font-weight:500;
+    margin-left: 20px;
+    color: aqua;
+}
+.left-section p span{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(99, 238, 99);
+}
+.right-section{
+    display:flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.right-section-btn{
+    display:flex;
+    align-items: center;
+    gap: 40px;
+}
+.right-section img{
+    height: 300px;
+    width: 300px;
+    /* border: 1px solid black; */
+    border-radius: 150px;
+    padding: 4px ;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:20px;
+    background-color: black;
+}
+.diff{
+    margin:0;
+}
+footer p{
+    font-weight:600;
+    color: beige;
+    
+    }
+footer  ul {
+    display: flex;
+   align-items: center;
+   gap: 30px;
+}
